@@ -7,6 +7,7 @@ function tokenForUser(user) {
     return jwt.encode({sub: user.id, iat: timestamp}, config.secret);
 }
 
+
 exports.signup = function (req, res, next) {
     //see if a user with the given email exists
     const email = req.body.email;
