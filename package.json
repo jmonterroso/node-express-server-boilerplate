@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmonterroso/node-express-server-boilerplate.git"
+  },
+  "author": "Jayson Monterroso <jayson.monterroso@gmail.com> (http://jaysonmonterroso.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmonterroso/node-express-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jmonterroso/node-express-server-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
